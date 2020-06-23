@@ -1,0 +1,2 @@
+<h1 class="para">This website provides easy acccessibility to the necessary study materials</h1>
+     <p class="npara">It is presently useful for 6th sem vtu students and will be upgraded later</p>

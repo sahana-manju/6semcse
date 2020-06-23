@@ -1,0 +1,248 @@
+body{
+    background-image: url('images/3.jpg');
+    background-size: cover;
+}
+.title-bar{
+    margin-top: 20px;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.442);
+}
+.heading{
+    color: white;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 30px;
+    text-shadow: 2px 2px 8px gray;
+    font-weight: bold;
+}
+a
+{
+    
+    cursor: pointer;
+
+}
+.title{
+    color: white;
+    font-size: 45px;
+    display: inline;
+    justify-content: space-between;
+    padding-left: 170px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.395);
+    
+}
+
+.npara{
+    color: rgba(221, 219, 210, 0.81);
+    font-size: 39px;
+    padding-left: 100px;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 100px;
+}
+.button1{
+    width: 850px;
+    padding: 11px 25px;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    border-width: 1px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.17);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+}
+.button1:hover{
+    background-color:  rgba(162, 106, 214, 0.014);
+    transition-duration: 1s;
+    
+    }
+.button3{
+    width: 850px;
+    padding: 11px 25px;
+    background-color: aqua;
+    color: black;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    border-width: 1px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.17);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    text-decoration: none;
+    
+    
+
+}
+.button3:hover{
+    background-color:  rgb(21, 230, 21);
+    transition-duration: 1s;
+    
+    }
+.button2{
+    width: 850px;
+    padding: 11px 25px;
+    background-color: white;
+    color: red;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-width: 1px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.17);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+.button2:hover{
+    background-color: rgba(61, 55, 226, 0.497);
+    transition-duration: 1s;
+}
+.mob-nav{
+display: none;
+}
+.mynavbutton{
+    display: none;
+}
+@media(max-width: 1298px)
+{
+    .title{
+        padding-left: 70px;
+    }
+    
+}
+@media(max-width: 979px)
+{
+    .title{
+        font-size: 39px;
+    }
+}
+@media(max-width: 906px)
+{
+    .title{
+        padding-left: 30px;
+    }
+}
+@media(max-width: 888px)
+{
+    .title{
+        padding-left: 35px;
+        font-size: 38px;
+    }
+}
+@media(max-width: 879px)
+{
+    .button1{
+       width: 800px;
+    }
+    .button3{
+       width: 800px;
+    }
+}
+
+@media(max-width: 768px)
+{
+    
+    .mob-nav{
+        display: block;
+    }
+    .mynavbutton{
+        display: block;
+        display: list-item;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: white;
+        background-color: black;
+        
+        width: 690px;
+        font-size: 35px;
+        cursor: pointer;
+        text-decoration: none;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        text-align: center;
+        padding: 10px 25px;
+    border-style: solid;
+    border-width: 1px;
+    
+
+        
+
+    }
+    .mynavbutton:hover{
+        background-color: coral;
+        transition-duration: 1s;
+    }
+.npara{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 5px 5px 8px black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.button1{
+    width: 750px;
+    
+    font-size: 30px;
+}
+.button3{
+    width: 750px;
+    font-size: 28px;
+}
+
+.title-bar{
+    display: none;
+}
+.title{
+    display: none;
+}
+}
+@media(max-width: 672px)
+{
+    .mynavbutton{
+        width:600px;
+    }
+}
+@media(max-width: 500px)
+{
+
+.mynavbutton{
+    width: 450px;
+
+}
+.button1{
+    width: 450px;
+    height: 55px;
+}
+.button3{
+    width: 450px;
+    height: 55px;
+}
+
+
+}
+
+@media(max-width: 320px)
+{
+    .mynavbutton{
+        width: 280px;
+    }
+    .button1{
+        width: 300px;
+        font-size: 18px;
+        
+    }
+    .button2{
+        font-size: 18px;
+    }
+    .button3{
+        width: 300px;
+        font-size: 20px;
+    }
+}
+
