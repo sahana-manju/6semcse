@@ -32,6 +32,17 @@ a
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.395);
     
 }
+.para{
+    display: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 5px;
+    
+}
+    
+
 
 .npara{
     color: rgba(221, 219, 210, 0.81);
@@ -140,6 +151,9 @@ display: none;
     .button1{
        width: 800px;
     }
+    .button2{
+        width: 800px;
+    }
     .button3{
        width: 800px;
     }
@@ -158,7 +172,7 @@ display: none;
         color: white;
         background-color: black;
         
-        width: 690px;
+        width: 768px;
         font-size: 35px;
         cursor: pointer;
         text-decoration: none;
@@ -177,7 +191,8 @@ display: none;
         background-color: coral;
         transition-duration: 1s;
     }
-.npara{
+.para{
+    display: block;
     font-size: 30px;
     font-weight: bolder;
     color: white;
@@ -185,13 +200,19 @@ display: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
+.npara{
+    display: none;
+}
 .button1{
-    width: 750px;
+    width: 768px;
     
     font-size: 30px;
 }
+.button2{
+    width: 768px;
+}
 .button3{
-    width: 750px;
+    width: 768px;
     font-size: 28px;
 }
 
@@ -205,44 +226,67 @@ display: none;
 @media(max-width: 672px)
 {
     .mynavbutton{
-        width:600px;
+        width:672px;
+    }
+    .button1{
+        width: 672px;
+    }
+    .button2{
+        width: 672px;
+
+    }
+    .button3{
+        width: 672px;
     }
 }
 @media(max-width: 500px)
 {
 
 .mynavbutton{
-    width: 450px;
+    width: 500px;
 
 }
 .button1{
-    width: 450px;
-    height: 55px;
+    width: 500px;
+    
+}
+.button2{
+    width: 500px;
 }
 .button3{
-    width: 450px;
-    height: 55px;
+    width: 500px;
+    
 }
 
 
 }
 
-@media(max-width: 320px)
+@media(max-width: 380px)
 {
+    .heading{
+        font-size: 35px;
+    }
     .mynavbutton{
-        width: 280px;
+        width: 380px;
     }
     .button1{
-        width: 300px;
-        font-size: 18px;
+        width: 380px;
+        font-size: 25px;
         
     }
     .button2{
-        font-size: 18px;
+        width: 380px;
+        font-size: 25px;
     }
     .button3{
-        width: 300px;
-        font-size: 20px;
+        width: 380px;
+        font-size: 25px;
+    }
+}
+@media(max-width: 340px)
+{
+    .heading{
+        font-size: 30px;
     }
 }
 
