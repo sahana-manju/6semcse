@@ -1,6 +1,8 @@
 body{
     background-image: url('images/3.jpg');
     background-size: cover;
+    background-repeat: space;
+    background-color: rgba(0, 0, 0, 0.918);
 }
 .title-bar{
     margin-top: 20px;
@@ -239,22 +241,25 @@ display: none;
         width: 672px;
     }
 }
-@media(max-width: 500px)
+@media(max-width: 414px)
 {
 
 .mynavbutton{
-    width: 500px;
+    width: 88%;
 
 }
 .button1{
-    width: 500px;
+    width: 88%;
+    font-size: 23px;
     
 }
 .button2{
-    width: 500px;
+    width: 88%;
+    font-size: 23px;
 }
 .button3{
-    width: 500px;
+    width: 88%;
+    font-size: 23px;
     
 }
 
@@ -267,26 +272,41 @@ display: none;
         font-size: 35px;
     }
     .mynavbutton{
-        width: 380px;
+        width: 86%;
     }
     .button1{
-        width: 380px;
-        font-size: 25px;
+        width: 86%;
+        font-size: 20px;
         
     }
     .button2{
-        width: 380px;
-        font-size: 25px;
+        width: 86%;
+        font-size: 20px;
     }
     .button3{
-        width: 380px;
-        font-size: 25px;
+        width: 86%;
+        font-size: 20px;
     }
 }
-@media(max-width: 340px)
+@media(max-width: 320px)
 {
     .heading{
         font-size: 30px;
+    }
+    .mynavbutton{
+        width: 85%;
+        font-size: 30px;
+    }
+    .button1{
+        font-size: 18px;
+    }
+    .button2{
+        width: 85%;
+        font-size: 18px;
+    }
+    .button3{
+        width: 85%;
+        font-size: 16px;
     }
 }
 
