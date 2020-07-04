@@ -1,7 +1,7 @@
 body{
     background-image: url('images/3.jpg');
     background-size: cover;
-    background-repeat: space;
+    background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.918);
 }
 .title-bar{
@@ -174,7 +174,7 @@ display: none;
         color: white;
         background-color: black;
         
-        width: 768px;
+        width: 700px;
         font-size: 35px;
         cursor: pointer;
         text-decoration: none;
@@ -206,15 +206,15 @@ display: none;
     display: none;
 }
 .button1{
-    width: 768px;
+    width: 700px;
     
     font-size: 30px;
 }
 .button2{
-    width: 768px;
+    width: 700px;
 }
 .button3{
-    width: 768px;
+    width: 700px;
     font-size: 28px;
 }
 
