@@ -2,7 +2,7 @@
 
 **Eazy Go Guide** is a website developed from scratch using **HTML** and **CSS** specifically for **6th-semester Engineering students** from **VTU** (Visvesvaraya Technological University) during the global pandemic. This project was designed to provide easy access to important academic resources such as **notes**, **question papers**, and the **syllabus**.
 
-Website Link - sahana-manju.github.io/Study_Guide/
+Website Link - https://sahana-manju.github.io/Study_Guide/
 
 ## Features:
 - **Responsive Design**: The website is fully responsive, ensuring an optimal user experience on both **mobile devices** and **laptops**.
